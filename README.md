@@ -1,15 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="97.5" height="28" role="img" aria-label="DJANGO">
-  <title>DJANGO</title>
-  <g shape-rendering="crispEdges">
-    <rect width="97.5" height="28" fill="#092e20"/>
-  </g>
-  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100">
-    <image x="9" y="7" width="14" height="14"/>
-    <text transform="scale(.1)" x="587.5" y="175" textLength="535" fill="#fff" font-weight="bold">DJANGO</text>
-  </g>
-</svg>
-![https___img shields io_badge_-Django-092E20](https://github.com/hash1o/MyBooksWeb/assets/136239147/bff037a9-b196-4e69-8dd2-6bddcfd440a7)
+https://img.shields.io/badge/-Django-092E20.svg?logo=django&style=for-the-badge
 
 # MyBooksWeb
 本を追加できます
