@@ -50,7 +50,7 @@ DEBUG=True
 
 ALLOWED_HOSTS=*
 
-### ③python仮想環境 (仮想環境は各自で構築してください)
+### ③パッケージのインストール (仮想環境は各自で構築してください)
 
 
 pip install -r requirements.txt
