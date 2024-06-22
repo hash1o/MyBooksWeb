@@ -28,7 +28,7 @@ SQLite3
 
 ## 動作を確認する場合は、以下の作業を行ってください
 
-###.env.devを作成
+### .env.devを作成
 
 MyBooksWeb/secrets/.env.dev
 
