@@ -44,7 +44,7 @@ MyBooksWeb/secrets/.env.dev
 
 ### ②.env.devの内容
 
-SECRET_KEY=｛各自ランダムな文字列を入力してください｝
+SECRET_KEY=MojihaNandemoIi
 
 DEBUG=True
 
