@@ -52,11 +52,15 @@ ALLOWED_HOSTS=*
 
 ### ③パッケージのインストール (仮想環境は各自で構築してください)
 
+ターミナル上で入力してください
 
 pip install -r requirements.txt
 
 
 ### ④db作成
+
+ターミナル上で入力してください
+
 
 
 python manage.py makemigrations books
@@ -66,8 +70,11 @@ python manage.py migrate
 
 ### ⑤スーパーユーザの作成
 
+ターミナル上で入力してください
 
-python createsuperuser
+
+
+python manage.py createsuperuser
 
 
 名前入力
