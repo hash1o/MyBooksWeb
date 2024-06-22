@@ -42,17 +42,17 @@ ALLOWED_HOSTS=*
 
 ### python仮想環境
 
-pip install -r requirements.txt
+#### pip install -r requirements.txt
 
 ### db作成
 
-python manage.py makemigrations books
+#### python manage.py makemigrations books
 
-python manage.py migrate
+#### python manage.py migrate
 
 ### スーパーユーザの作成
 
-python createsuperuser
+#### python createsuperuser
 
 名前入力
 
@@ -62,7 +62,7 @@ python createsuperuser
 
 ### 実行
 
-python manage.py runserver
+#### python manage.py runserver
 
 http://127.0.0.1:8000/ へアクセス
 
