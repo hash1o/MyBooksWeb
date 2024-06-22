@@ -1,0 +1,12 @@
+{% if book.volumeInfo.title %}
+<a href="{% url 'book' book.id %}">
+    <img src="{{ book.volumeInfo.imageLinks.thumbnail }}" class="card-img-top" alt="{{ book.volumeInfo.title }}">
+    <div class="card-body">
+        <h5 class="card-title">{{ book.volumeInfo.title }}</h5>
+        <p class="card-text">
+            {{ book.volumeInfo.authors|join:", " }}<br>
+            {{ book.volumeInfo.publishedDate }}
+        </p>
+    </div>
+</a>
+{% endif %}
