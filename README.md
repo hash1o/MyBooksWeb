@@ -31,6 +31,8 @@ Python 3.11
 
 SQLite3
 
+Google Books APIs
+
 
 
 ## 動作を確認する場合は、以下の作業を行ってください
