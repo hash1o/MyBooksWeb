@@ -38,7 +38,7 @@ Google Books APIs
 ## 動作を確認する場合は、以下の作業を行ってください
 
 
-### ①.env.devを作成
+### ① secretsフォルダの作成 .env.devを作成
 
 MyBooksWeb/secrets/.env.dev
 
