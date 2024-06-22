@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block main %}
+
+<div class="container mt-4">
+
+    <div class="row">
+
+        {% if books %}
+
+        {% for book in books %}
+        <div class="col-md-3 mb-3">
+            <div class="card h-100">
+                {% include 'snippets/item_book.html' %}
+            </div>
+        </div>
+        {% endfor %}
+
+        {% else%}
+        {% include 'snippets/headline.html' %}
+        <form method="GET" class="form-inline mb-4">
+            <div class="form-group mx-sm-3 mb-2">
+                <input type="text" name="q" class="form-control" placeholder="ここで本を検索してください">
+            </div>
+        </form>
+        {% endif %}
+
+        {% endblock %}
+    </div>
+</div>
