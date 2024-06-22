@@ -1,8 +1,7 @@
+https://camo.qiitausercontent.com/ca8c7ac2357304fbbbf13b2bb9eacdabd78081cc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d446a616e676f2d3039324532302e7376673f6c6f676f3d646a616e676f267374796c653d666f722d7468652d6261646765
+
 # MyBooksWeb
 本を追加できます
-
-
-
 
 ## 動作を確認する場合は、以下の作業を行ってください
 MyBooksWeb/secrets/.env.dev を作成
