@@ -21,9 +21,11 @@
 ## 動作を確認する場合は、以下の作業を行ってください
 
 ###.env.devを作成
+
 MyBooksWeb/secrets/.env.dev
 
 ### .env.devの内容
+
 SECRET_KEY=｛各自ランダムな文字列を入力してください｝
 
 DEBUG=True
