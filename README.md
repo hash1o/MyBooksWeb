@@ -82,3 +82,16 @@ python manage.py runserver
 
 http://127.0.0.1:8000/ へアクセス
 
+
+
+
+## 今後・追加予定 (順不同)
+
+PostgreSQLへ移行
+
+AWS nginx デプロイ
+
+アカウントの名前、メアド、パスワード変更機能
+
+Web上のマイライブラリ 個別 削除
+
