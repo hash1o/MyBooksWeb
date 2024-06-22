@@ -52,7 +52,7 @@ class BookDetailView(LoginRequiredMixin,DetailView):
         response = requests.get(f'https://www.googleapis.com/books/v1/volumes/{book_id}')
         book = response.json()
 
-        #      Ȃ      ꍇ ɃG   [ ƂȂ (  O       Ȃ    @ ł  ܂ )
+        #見つからなかった場合にエラーとなる(例外処理しない方法でやります)
         #memo = MemoBook.objects.get(book_id=book_id) 
 
         queryset = self.get_queryset()
@@ -79,7 +79,7 @@ class BookDetailView(LoginRequiredMixin,DetailView):
         response = requests.get(f'https://www.googleapis.com/books/v1/volumes/{book_id}')
         book_data = response.json()
         
-        title = book_data.get('volumeInfo', {}).get('title', ' ^ C g      ')
+        title = book_data.get('volumeInfo', {}).get('title', 'タイトル無し')
 
         #MemoBook.objects.update_or_create(user=request.user,defaults={"memo":memoText,"title":title,"book_id":book_id})
         MemoBook.objects.update_or_create(
@@ -129,5 +129,5 @@ class BookLibraryView(LoginRequiredMixin,ListView):
             print(redirect_url)
             return redirect(redirect_url)
 
-        # e N   X  get()    s    
+        #親クラスのget()を実行する
         return super().get(request, *args, **kwargs)
