@@ -1,5 +1,3 @@
-<img src=https://img.shields.io/badge/-Django-092E20.svg?logo=django&style=for-the-badge>
-
 # MyBooksWeb
 本を追加できます
 
