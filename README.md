@@ -46,7 +46,7 @@ MyBooksWeb/secrets/.env.dev
 
 ### ②.env.devの内容
 
-SECRET_KEY=MojihaNandemoii!!
+SECRET_KEY=MojihaNandemoii
 
 DEBUG=True
 
