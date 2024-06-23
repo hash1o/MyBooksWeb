@@ -46,7 +46,7 @@ MyBooksWeb/secrets/.env.dev
 
 ### ②.env.devの内容
 
-SECRET_KEY=MojihaNandemoii
+SECRET_KEY=5種類以上の文字が使われている50文字以上の長さがある英数字記号
 
 DEBUG=True
 
