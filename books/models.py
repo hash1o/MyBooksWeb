@@ -75,7 +75,7 @@ class Profile(models.Model):
     tel = models.CharField(default='', blank=True, max_length=15)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-    profile_image = models.ImageField(upload_to='media/profile_images/', blank=True, null=True)
+    profile_image = models.ImageField(upload_to='profile_images/', blank=True, null=True)
  
     def __str__(self):
         return self.name
