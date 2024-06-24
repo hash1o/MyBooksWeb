@@ -85,7 +85,10 @@ python manage.py createsuperuser
 
 パスワード入力
 
-### ⑥実行
+### ⑥フォルダ作成
+MyBooksWeb/media/profile_images/
+
+### ⑦実行
 
 
 python manage.py runserver
@@ -97,12 +100,7 @@ http://127.0.0.1:8000/ へアクセス
 
 
 ## 今後・追加予定 (順不同)
-
-PostgreSQLへ移行
-
-AWS nginx デプロイ
-
-アカウントの名前、メアド、パスワード変更機能
+アカウントの名前、メアド、変更機能
 
 Web上のマイライブラリ 個別 削除
 
