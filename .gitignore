@@ -9,3 +9,4 @@ books/__pycache__/
 books/migrations/00*.py
 books/migrations/__pycache__/
 books/views/__pycache__/
+media/profile_images/

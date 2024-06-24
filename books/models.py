@@ -44,6 +44,7 @@ class User(AbstractBaseUser):
     EMAIL_FIELD = 'email'
     REQUIRED_FIELDS = ['email', ]
  
+ 
     def __str__(self):
         return self.email
  
@@ -95,7 +96,7 @@ class MemoBook(models.Model):
     book_id = models.CharField(max_length=50)
     title = models.CharField(max_length=100)
     memo = models.TextField(null=True)
-    bookjson = models.JSONField(null=True) #今後使用する
+    bookjson = models.JSONField(null=True)
 
     def __str__(self) -> str:
         return self.title

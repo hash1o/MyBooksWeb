@@ -53,9 +53,6 @@ class BookDetailView(LoginRequiredMixin,DetailView):
         response = requests.get(f'https://www.googleapis.com/books/v1/volumes/{book_id}')
         book = response.json()
 
-        #見つからなかった場合にエラーとなる(例外処理しない方法でやります)
-        #memo = MemoBook.objects.get(book_id=book_id) 
-
         queryset = self.get_queryset()
         
         if not queryset:
