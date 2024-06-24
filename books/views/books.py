@@ -1,4 +1,5 @@
 
+
 import requests
 
 from django.views.generic import ListView, TemplateView,View,UpdateView,CreateView,DetailView

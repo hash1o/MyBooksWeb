@@ -43,7 +43,7 @@ class ProfileUpdateView(LoginRequiredMixin,UpdateView):
     model = Profile
     template_name = 'pages/profile.html'
     fields = ('name', 'zipcode', 'prefecture',
-              'city', 'address1', 'address2', 'tel')
+              'city', 'address1', 'address2', 'tel','profile_image')
     success_url = '/profile/'
  
     def get_object(self):
